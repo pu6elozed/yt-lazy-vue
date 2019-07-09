@@ -1,0 +1,33 @@
+{
+  "name": "yt-lazy",
+  "description": "Lazy Vue Youtube embedder",
+  "version": "1.0.0",
+  "author": "Artem Listikov <pu6elozed@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "@babel/preset-env": "^7.4.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.2",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
